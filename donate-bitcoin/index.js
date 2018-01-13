@@ -134,7 +134,7 @@ function composeDonationElements(bitcoinAmountToDonate, fiatDonationAmount) {
     var donateDisplayMessage = " Please send " + bitcoinAmountToDonate.toString() + " Bitcoin" + fiatAmountToDonateMessage;
     if (mbits == true) {
         var mbitprice = (bitcoinAmountToDonate * 1000).toFixed(2);
-        var donateDisplayMessage = " Please send " + mbitprice.toString() + " mBits" + fiatAmountToDonateMessage;
+        var donateDisplayMessage = " Please send " + mbitprice.toString() + " mBits" + fiatAmountToDonateMessage + " or enter your own USD amount in the box above;
     }
     return {
         url: url,
